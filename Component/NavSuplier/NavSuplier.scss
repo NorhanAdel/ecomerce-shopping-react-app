@@ -1,0 +1,29 @@
+.wrapper_nav_suplier{
+     margin-top: 30px; 
+    ._navsuplier_container{
+        display:flex;
+        justify-content: space-between;
+        color: #fff;
+         padding: 20px;
+    background: rgba(35, 124, 255, 1);
+;
+    height: 120px;
+     margin-bottom:60px;
+    border-radius: 5px;
+        h1{
+            font-weight: 600;
+            font-size:24px;
+            line-height: 32px;
+        }
+        p{
+            color:#fff;
+            font-size: 16px;
+        }
+        button{
+            background: rgba(255, 144, 23, 1);
+
+            height: 40px;
+            color:#fff;
+        }
+    }
+}

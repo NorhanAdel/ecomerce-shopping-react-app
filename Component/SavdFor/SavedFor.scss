@@ -1,0 +1,28 @@
+._SavedFor_wrapper{
+    
+    padding:10px;
+width:90%;
+.savedtitle{
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+}
+    img{
+        width:90%;
+        height:200px;
+        border: 1px solid #DEE2E7;
+        border-radius: 7px;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    button{
+        width: 156px;
+        border-radius: 7px;
+        border:1px solid #DEE2E7;
+        color:#0D6EFD;
+        svg{
+            font-size:20px;
+            margin-left:2px;
+        }
+    }
+}

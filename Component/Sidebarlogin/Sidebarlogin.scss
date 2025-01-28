@@ -1,0 +1,72 @@
+._wrapper_side_login{
+    width: 250px;
+margin-left: 20px;
+    ._side_login_part1{
+background-color: rgba(65, 169, 213, 0.133);
+height: 150px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+gap: .7rem;
+padding: 5px 10px;
+ div{
+    display: flex;
+    flex-direction: row;
+    svg{
+        font-size: 60px;
+        color: rgb(15, 94, 158);
+    }
+    h1{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        color: #1C1C1C;
+    }
+     
+ }
+ button{
+      border: none;
+        height:30px;
+        margin-top: -5px;
+        padding: 4px 10px; 
+            border-radius: 6px;
+ }
+ .join{
+    background: linear-gradient(#127FFF 100%,#0067FF 100%);
+    color:#fff;
+ }
+ .login-btn{
+      
+        border:1px solid #DEE2E7;
+        background-color: #fff;
+     
+        color: #0D6EFD;
+    }
+    }
+    ._side_login_part2{
+height:95px;
+        background-color:#F38332;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        h1{
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            line-height:19.36px;
+        }
+    }
+   ._side_login_part3{
+    height:95px;
+     background-color: #55BDC3;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+   } 
+      h1{
+           font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            line-height:19.36px;
+        }
+}

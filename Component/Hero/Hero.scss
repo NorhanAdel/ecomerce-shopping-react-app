@@ -1,0 +1,36 @@
+._hero_wraper{
+    background-image: url('../../assets/Premium Photo _ Flat lay of desk concept with copy space.jpg');
+    width: 665px;
+    height: 360px;
+    
+    background-position: center;
+    background-size: cover;
+    ._hero_container{
+        margin-top: 50px;
+        padding-left: 20px;
+        h2{
+            font-weight: 400;
+            font-size: 28px;
+            padding-top: 10px;
+        }
+          h1{
+            font-weight: 700;
+            font-size: 32px;
+          }
+        button{
+            width:119px;
+            height: 40px;
+            border:none;
+            padding:0px, 16px, 0px, 16px;
+            font-size: 18px;
+            background: #fff;
+            border-radius: 6px;
+            margin-top: 10px;
+            a{
+                text-decoration: none;
+                color: #000
+                ;
+            }
+        }
+    }
+}
