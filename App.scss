@@ -1,0 +1,144 @@
+ 
+._container{
+  width: 1180px;
+  margin: auto;
+}
+ body{
+      background: #F7FAFC;
+        overflow-x: hidden;
+ }
+ 
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  box-sizing: border-box;
+}
+body{
+  background: var(--color-bg);
+  line-height: 1.6;
+  font-size: .9rem;
+  color:var(--color-grey-700);
+  overflow-x: hidden;
+}
+ul{
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  color:var(--color-grey-900);
+  line-height: 1.1;
+}
+h1{
+  font-size: 2.2rem;
+}
+h2{
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+h3{
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+h4{
+  font-size: 1.1rem;
+}
+form{
+  width:50%;
+  margin-inline: auto;
+}
+section{
+  margin-top:6rem;
+}
+.center{
+  text-align: center;
+  width:100%;
+  padding-top: 6rem;
+  display: block;
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.btn{
+  display:inline-block;
+  width:fit-content;
+  padding:.2rem 1rem;
+  border-radius: 5px;
+  background: var(--color-white);
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s all;
+}
+     input , select, textarea{
+       width: 100%;
+       padding: .5rem 1rem;
+       border-radius: 5px;
+       margin-bottom: 10px;
+       resize:none;
+     }
+.btn-primary{
+  background-color: var(--primary-color);
+  color:var(--color-white);
+}
+.btn-category{
+  background-color:var(--color-bg);
+  color:var(--primary-color);
+  font-size: .75rem;
+  font-weight: 400;
+}
+.btn-sm{
+  font-size: .8rem;
+  padding:.3rem .7rem;
+  font-weight: 400;
+  background-color: #ddd;
+}
+.btn-danger{
+  background: var(--color-red);
+  color:var(--color-white);
+}
+.btn:hover{
+  background: var(--color-grey-900);
+  color:var(--color-white);
+}
+
+
+
+a{
+  color:var(--color-grey-700);
+  text-decoration: none;
+}
+.register, .login .creatpost{
+  width:50%;
+  margin-inline: auto;
+  display: grid;
+  place-items: center;
+  height:calc(100vh - 12rem)
+}
+.register small ,.login small{
+display: block;
+margin-top: 1.2rem;
+}
+.register small a,
+.login small a{
+  color: var(--primary-color);
+  font-size: 20px;
+}
+ .error_massage {
+   background: var(--color-red);
+   color: var(--color-white);
+   font-size: .8rem;
+   padding: .5rem 1rem;
+   border-radius: 5px;
+   display: block;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+
+ }
+
+
+ .con{
+  display:flex;
+     
+ }
