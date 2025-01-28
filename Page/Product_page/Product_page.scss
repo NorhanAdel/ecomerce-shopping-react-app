@@ -1,0 +1,183 @@
+._product_page_wrapper {
+  width: 100%;
+    background: #F8F9FA;
+    .top_part{
+        width:100%;
+        height: 580px;
+        display:flex;
+        background-color: #fff;
+        margin-bottom:20px;
+    
+       .supplier_details{
+         padding-right: 10px;
+        width:25%;
+        margin-top:20px;
+        h1{
+            font-size:16px;
+            text-align:center;
+            margin-top:20px;
+            color:#0D6EFD;
+        }
+        .supplier_card{
+          
+            border:1px solid #E0E0E0;
+            margin-left:20px;
+            border-radius:5px;
+            padding:10px;
+            ._top_part{
+                display:flex;
+                border-bottom:1px solid #E0E0E0;
+                   h2{
+                    color:#4ca7a7b9;
+                     background-color: #C6F3F1;
+                        width:40px;
+                        height:40px;
+                        display:flex;
+                                justify-content: center;
+                                align-items:center;
+                                    border-radius:5px;
+                                    margin-right:20px;
+
+                   }
+            }
+            ._bottom_part{
+              p{
+                color:#8B96A5;
+              }
+                margin-top:20px;
+                button{
+                    width:100%;
+                }
+                .seller{
+                    border:1px solid #E0E0E0;
+                        margin-top:10px;
+                        color:#0D6EFD;
+                        font-weight:500;
+                }
+
+            }
+        }
+       }
+  .single_pro_image {
+
+    width: 345px;
+    height: 345px;
+    margin: 20px 50px 10px 10px;
+    img{
+        width:100%;
+        height: 100%;
+        // padding:10px;
+        border:1px solid #DEE2E7;
+           margin: 20px 10px  5px 10px;
+    }
+    .smallImage{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        img{
+            width:95%;
+            height: 100px;
+        }
+    }
+  }
+
+ .sigle_details {
+    width:40%;
+    margin-top:20px;
+    p{
+        color:#00B517;
+        font-size:16px;
+
+    }
+    h1{
+         font-size:20px;
+         color:#1C1C1C;
+    }
+    svg{
+        color:#FF9017;
+    }
+    span{
+        color:#787A80;
+        margin-right:20px;
+    }
+    .number{
+        display:flex;
+        width:100%;
+        background:#FFF0DF;
+        padding:10px;
+        margin-top:20px;
+        ._number{
+          display:flex;
+          flex-direction:column;
+          padding-right:20px; 
+            padding-left:20px; 
+          border-right:1px solid#DEE2E7;
+          h2{
+            font-size:18px;
+            color: #1C1C1C;
+          } 
+          span{
+            color:#606060;
+            margin-right:0;
+          }
+        }
+       
+       
+    }
+    .details3{
+       padding-top:10px;  
+              span{
+                    font-size:18px;
+                  color:#8B96A5;
+                }
+                .small_des{
+                  color:#505050;
+                  font-size: 16px;
+                }
+    }
+    .details2{
+         border-top:1px solid #E0E0E0;
+                 padding-top:10px;
+    }
+    .details{
+        border-bottom:1px solid#E0E0E0;
+        padding-bottom:10px;
+                p{
+
+                    margin:0;
+                    padding-top:20px;
+                  
+                 
+                     span{
+                    font-size:18px;
+                  color:#8B96A5;
+                }
+                .small_des{
+                  color:#505050;
+                  font-size: 16px;
+                }
+      .description{
+            
+                }
+                
+             }
+
+            .desc1{
+                 
+          p{
+             
+            margin:0;
+           
+            span{
+                color:#8B96A5;
+                 margin-top:10px;
+            }
+          }
+            }
+        }
+ }
+
+
+
+}
+}
